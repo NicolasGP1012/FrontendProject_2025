@@ -1,4 +1,4 @@
-# Proyecto Frontend Aridos Atamca
+# Proyecto Frontend Áridos Atacama
 
 ### Descripción
 Este proyecto es una aplicación web desarrollada con HTML y CSS para la gestión de Áridos en Atacama.
