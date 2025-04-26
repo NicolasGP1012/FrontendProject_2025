@@ -6,37 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aridos Atacama</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
-    <header id="main-header">
-        <div class="container">
-            <div class="logo">
-                Aridos Atacama
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="/" class="active">Inicio</a></li>
-                    <li><a href="./about.html">Acerca de</a></li>
-                    <li><a href="./services.html">Servicios</a></li>
-                    <li><a href="./contact.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <header class="flex justify-between bg-neutral-700 text-white p-7 ">
+        <div class="text-2xl">
+            Aridos Atacama
         </div>
+        <nav class="content-center">
+            <ul class="flex gap-x-10 ">
+                <li><a href="/" class="active">Inicio</a></li>
+                <li><a href="./about.html">Acerca de</a></li>
+                <li><a href="./services.html">Servicios</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Bienvenido a Aridos Atacama</h1>
-            <p>Proveedores de áridos y materiales para la construcción en la región de Atacama.</p>
-            <a href="./services.html" class="btn">Ver Servicios</a>
+    <section class="bg-[url(/assets/img/hero.jpg)] bg-local bg-center bg-cover h-[calc(100vh-136px)] flex justify-center items-center ">
+        <div>
+            <h1 class="text-center text-5xl font-bold text-amber-600 ">Bienvenido a Aridos Atacama</h1>
+            <p class="text-center p-6 text-2xl ">Proveedores de áridos y materiales para la construcción en la región de Atacama.</p>
+            <button class="block mx-auto text-center text-2xl bg-amber-600 hover:bg-amber-700 p-2 b text-white font-bold rounded-md shadow-lg shadow-stone-900/100"> 
+                <a href="./services.html">Ver Servicios</a>
+            </button>    
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Aridos Atacama. Todos los derechos reservados.</p>
-        </div>
+    <footer class="bg-neutral-700 text-white flex justify-center py-3 sticky bottom-0 w-full ">
+        <p>&copy; 2025 Aridos Atacama. Todos los derechos reservados.</p>
     </footer>
 </body>
 
 </html>
+
+
+
